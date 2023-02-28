@@ -29,7 +29,6 @@ class ItemControllerTest {
         mockMvc.perform(MockMvcRequestBuilders.get("/admin/item/new"))
                 .andDo(print())
                 .andExpect(status().isOk());
-
     }
 
     @Test
