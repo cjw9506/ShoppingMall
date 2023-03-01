@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Setter
 public class Item extends BaseEntity {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
